@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+         Mews\Captcha\CaptchaServiceProvider::class,  #验证码服务提供者
         /*
          * Application Service Providers...
          */
@@ -226,6 +226,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Captcha' => Mews\Captcha\Facades\Captcha::class,
 
     ],
 
